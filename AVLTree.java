@@ -130,6 +130,7 @@ class AVLTree {
         avlTree.insert(5);
         avlTree.insert(6);
         avlTree.insert(7);
+        
 
         System.out.println("Tree is balanced: " + avlTree.isBalanced(avlTree.root));
         avlTree.display();
